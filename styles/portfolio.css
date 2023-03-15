@@ -91,6 +91,18 @@ hr {
   margin-right: 20px;
 }
 
+.project-description p {
+  opacity: 65%;
+}
+
+.work-inquiry-box {
+  background-color: var(--light-color);
+  border-radius: 4px;
+  max-width: 70%;
+  padding: 40px 70px;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 43px;
