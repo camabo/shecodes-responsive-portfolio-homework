@@ -16,12 +16,28 @@ h1 {
 }
 h2 {
   font-family: var(--sub-heading-family);
+  font-size: 64px;
+  line-height: 85px;
+  font-weight: 700;
 }
 
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+hr {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  color: var(--primary-color);
+}
 .hero {
   text-align: center;
   background-color: var(--light-color);
   padding: 200px 200px;
+  margin-bottom: 50px;
 }
 
 .hero p {
@@ -38,12 +54,46 @@ h2 {
   font-size: 24px;
   line-height: 36px;
 }
-.btn-branding {
+.btn-primary {
   background-color: var(--primary-color);
+  border: none;
   color: #f9fcfc;
   border-radius: 4px;
   padding: 18px 30px;
   margin-top: 10px;
   font-size: 18px;
   line-height: 27px;
+}
+
+:hover.btn-primary {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  border: solid thin var(--primary-color);
+}
+
+:hover.btn-secondary {
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+  border: solid thin var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: #f9fcfc;
+  border-radius: 4px;
+  padding: 18px 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.project-description {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+  }
 }
