@@ -103,6 +103,14 @@ hr {
   text-align: center;
 }
 
+.email-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #2c2d34;
+  font-size: 16px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 43px;
