@@ -12,24 +12,25 @@ body {
   color: var(--dark-color);
   font-family: var(--default-font-family);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 90px;
-  line-height: 100px;
+  font-size: 65px;
+  line-height: 75px;
 }
 
 h2 {
   font-family: var(--sub-heading-family);
-  font-size: 45px;
-  line-height: 75px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-p {
-  font-size: 16px;
-  line-height: 30px;
+h3 {
+  font-family: var(--sub-heading-family);
+  font-size: 50px;
+  line-height: 60px;
 }
 
 hr {
@@ -47,6 +48,10 @@ hr {
   text-align: center;
 }
 
+.hero h1 {
+  font-size: 90px;
+  line-height: 100px;
+}
 .hero h2,
 .hero p {
   font-size: 24px;
@@ -96,38 +101,8 @@ hr {
   opacity: 65%;
 }
 
-.work-inquiry-box {
-  background-color: var(--light-color);
-  border-radius: 4px;
-  max-width: 70%;
-  padding: 40px 70px;
-  text-align: center;
-}
-
-.email-link {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #2c2d34;
-  font-size: 16px;
-}
-
-.about-section {
-  margin-top: 100px;
-  padding: 50px;
-}
-.about-section h1 {
-  font-size: 65px;
-  line-height: 80px;
-}
-
-.about-section h2 {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.about-section-content {
-  padding: 10px;
+.content {
+  padding: 40px;
 }
 
 @media (max-width: 920px) {
@@ -163,20 +138,20 @@ hr {
     font-size: 20px;
     line-height: 30px;
   }
-  .about-section {
+  .content {
     text-align: center;
   }
-  .about-section h1 {
+  .content h1 {
     font-size: 45px;
     line-height: 50px;
   }
 
-  .about-section h2 {
+  .content h2 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .about-section p {
+  .content p {
     font-size: 14px;
     line-height: 20px;
   }
