@@ -17,8 +17,8 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 65px;
-  line-height: 75px;
+  font-size: 60px;
+  line-height: 70px;
 }
 
 h2 {
@@ -31,6 +31,10 @@ h3 {
   font-family: var(--sub-heading-family);
   font-size: 50px;
   line-height: 60px;
+}
+
+p {
+  opacity: 70%;
 }
 
 hr {
@@ -102,7 +106,7 @@ hr {
 }
 
 .content {
-  padding: 40px;
+  padding: 50px;
 }
 
 @media (max-width: 920px) {
