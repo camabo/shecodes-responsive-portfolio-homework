@@ -118,6 +118,7 @@ hr {
   h1 {
     font-size: 45px;
     line-height: 50px;
+    text-align: center;
   }
 
   h2 {
@@ -153,6 +154,7 @@ hr {
   .content h1 {
     font-size: 45px;
     line-height: 50px;
+    text-align: center;
   }
 
   .content h2 {
