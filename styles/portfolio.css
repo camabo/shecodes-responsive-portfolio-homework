@@ -60,6 +60,7 @@ hr {
 .hero p {
   font-size: 24px;
   line-height: 40px;
+  opacity: 100%;
 }
 
 .btn-primary {
@@ -106,7 +107,11 @@ hr {
 }
 
 .content {
-  padding: 50px;
+  padding: 40px;
+}
+
+.container {
+  padding: 75px;
 }
 
 @media (max-width: 920px) {
