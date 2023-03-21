@@ -47,10 +47,31 @@ hr {
   color: var(--primary-color);
 }
 
+ul {
+  padding: 0;
+  margin: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   background-color: var(--light-color);
-  margin-bottom: 50px;
-  padding: 300px;
+  margin-bottom: 0px;
+  padding: 100px;
   text-align: center;
 }
 
@@ -121,44 +142,40 @@ hr {
 }
 
 .nav-box {
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-}
-
-nav a {
+.contact-links {
   text-decoration: none;
   color: var(--dark-color);
 }
 
-nav a:hover,
-nav li.active a {
+:hover.contact-links {
   color: var(--primary-color);
 }
 
 @media (max-width: 920px) {
-  h1 {
-    font-size: 40px;
+  h1,
+  .about-content h1 {
+    font-size: 45px;
     line-height: 50px;
   }
 
-  h2 {
-    font-size: 30px;
+  h2,
+  .hero h2,
+  .hero p,
+  .about-content h2 {
+    font-size: 25px;
+    line-height: 30px;
   }
 
   h3 {
     font-size: 35px;
+    line-height: 40px;
   }
 
-  p {
+  p,
+  .about-content p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -168,42 +185,20 @@ nav li.active a {
     padding: 10px 15px;
   }
 
-  .project-description {
-    text-align: center;
-  }
-
   .hero {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
 
   .hero h1 {
     font-size: 70px;
     line-height: 75px;
+  }
+
+  .page-container {
     text-align: center;
   }
 
-  .hero h2,
-  .hero p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .about-content h1 {
-    font-size: 45px;
-    line-height: 50px;
-  }
-
-  .about-content h2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .about-content p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
   nav li {
-    margin-right: 10px;
+    margin-left: 5px;
   }
 }
