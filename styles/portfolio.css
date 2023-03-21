@@ -19,12 +19,14 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 60px;
   line-height: 70px;
+  margin: 0;
 }
 
 h2 {
   font-family: var(--sub-heading-family);
   font-size: 20px;
   line-height: 30px;
+  margin-top: 16px;
 }
 
 h3 {
@@ -106,28 +108,59 @@ hr {
   opacity: 65%;
 }
 
-.content {
-  padding: 40px;
+.about-content {
+  padding: 10px;
 }
 
-.container {
-  padding: 75px;
+.page-container {
+  padding: 30px;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.nav-box {
+  padding: 10px 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
 }
 
 @media (max-width: 920px) {
   h1 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 50px;
-    text-align: center;
   }
 
   h2 {
+    font-size: 30px;
+  }
+
+  h3 {
     font-size: 35px;
   }
 
   p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 26px;
   }
 
   .btn-primary,
@@ -140,7 +173,13 @@ hr {
   }
 
   .hero {
-    padding: 100px;
+    padding: 30px 20px;
+  }
+
+  .hero h1 {
+    font-size: 70px;
+    line-height: 75px;
+    text-align: center;
   }
 
   .hero h2,
@@ -148,22 +187,23 @@ hr {
     font-size: 20px;
     line-height: 30px;
   }
-  .content {
-    text-align: center;
-  }
-  .content h1 {
+
+  .about-content h1 {
     font-size: 45px;
     line-height: 50px;
-    text-align: center;
   }
 
-  .content h2 {
+  .about-content h2 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .content p {
+  .about-content p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  nav li {
+    margin-right: 10px;
   }
 }
