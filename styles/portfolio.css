@@ -150,8 +150,31 @@ nav li.active a {
   color: var(--dark-color);
 }
 
-:hover.contact-links {
+.contact-links:hover,
+footer .email-link:hover {
   color: var(--primary-color);
+  transition: ease-in-out;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.social-icons a {
+  color: var(--primary-color);
+  background: var(--light-color);
+  margin: 15px 20px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  color: var(--light-color);
+  background: var(--primary-color);
 }
 
 @media (max-width: 920px) {
