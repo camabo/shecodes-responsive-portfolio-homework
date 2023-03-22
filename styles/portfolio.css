@@ -134,6 +134,15 @@ nav li.active a {
   opacity: 65%;
 }
 
+.project-links {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.project-links:hover {
+  color: var(--secondary-color);
+}
+
 .about-content {
   padding: 10px;
 }
